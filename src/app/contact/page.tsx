@@ -4,8 +4,8 @@ import { Mail, Phone, MessageSquare } from 'lucide-react';
 import ContactForm from './contact-form';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
-  description: 'Get in touch with PrintHatke. Book a demo, ask questions, or learn how to upgrade your print counter.',
+  title: 'Contact & Register',
+  description: 'Get in touch with PrintHatke. Register as a merchant, book a demo, or ask questions.',
 };
 
 export default function ContactPage() {
@@ -60,17 +60,12 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-
-            <div className="mt-12 p-6 glass-card border-electric/30 bg-electric/5">
-              <h3 className="font-semibold text-lg mb-2">Book a Demo</h3>
-              <p className="text-text-secondary text-sm mb-4">Want to see how PrintHatke works in action? Schedule a tailored demo for your shop.</p>
-              <p className="text-xs text-text-tertiary italic">[PLACEHOLDER: Demo booking mechanism - Calendly, Google Forms, or custom]</p>
-            </div>
           </div>
 
           {/* Contact Form */}
           <div className="glass-card p-8 bg-surface-elevated/30">
-            <h2 className="text-2xl font-bold text-text-primary mb-6">Send a Message</h2>
+            <h2 className="text-2xl font-bold text-text-primary mb-2">Register as a Merchant</h2>
+            <p className="text-text-secondary text-sm mb-6">Fill out your details to request a demo and join PrintHatke.</p>
             <ContactForm />
           </div>
         </div>

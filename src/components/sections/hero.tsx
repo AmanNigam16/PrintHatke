@@ -41,7 +41,7 @@ export function Hero() {
           </motion.p>
           
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-            <a href="/register" className="bg-electric hover:opacity-90 text-white px-8 py-4 rounded-full font-bold transition-all shadow-lg shadow-electric/25 hover:shadow-electric/40 transform hover:-translate-y-0.5 inline-flex justify-center items-center gap-2">
+            <a href="/contact" className="bg-electric hover:opacity-90 text-white px-8 py-4 rounded-full font-bold transition-all shadow-lg shadow-electric/25 hover:shadow-electric/40 transform hover:-translate-y-0.5 inline-flex justify-center items-center gap-2">
               Start automating your shop <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </a>
             <a href="/how-it-works" className="glass-card hover:border-border-glow px-8 py-4 rounded-full font-semibold transition-all inline-flex justify-center items-center">

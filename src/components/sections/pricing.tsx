@@ -177,7 +177,7 @@ export function Pricing() {
               </ul>
             </div>
             
-            <a href="/register" className={`w-full py-3.5 rounded-xl font-bold transition-all flex items-center justify-center gap-2 ${plan.badge ? 'bg-electric text-white hover:bg-electric-soft shadow-[0_0_15px_rgba(37,99,235,0.3)]' : 'bg-surface-elevated text-electric border border-electric/30 hover:border-electric/60 hover:bg-electric/5'}`}>
+            <a href="/contact" className={`w-full py-3.5 rounded-xl font-bold transition-all flex items-center justify-center gap-2 ${plan.badge ? 'bg-electric text-white hover:bg-electric-soft shadow-[0_0_15px_rgba(37,99,235,0.3)]' : 'bg-surface-elevated text-electric border border-electric/30 hover:border-electric/60 hover:bg-electric/5'}`}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               Get started
             </a>
@@ -187,7 +187,7 @@ export function Pricing() {
       
       <div className="mt-16 text-center">
         <div className="flex flex-wrap justify-center gap-4">
-          <a href="/register" className="bg-electric text-white px-8 py-3.5 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity flex items-center justify-center">
+          <a href="/contact" className="bg-electric text-white px-8 py-3.5 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity flex items-center justify-center">
             Request pricing
           </a>
         </div>
