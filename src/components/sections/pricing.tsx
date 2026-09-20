@@ -190,9 +190,6 @@ export function Pricing() {
           <a href="/register" className="bg-electric text-white px-8 py-3.5 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity flex items-center justify-center">
             Request pricing
           </a>
-          <button className="glass-card text-text-primary px-8 py-3.5 rounded-full font-bold border border-border hover:bg-surface-elevated transition-colors">
-            Merchant sign in
-          </button>
         </div>
       </div>
     </SectionWrapper>
