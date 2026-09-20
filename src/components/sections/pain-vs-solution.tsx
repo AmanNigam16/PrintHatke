@@ -18,7 +18,7 @@ const SOLUTIONS = [
   "Transparent, real-time price quotes",
   "Online payment + pay-at-counter flexibility",
   "Live status tracking for every order",
-  "Automatic digital queue on your desktop terminal"
+  "Automatic digital queue on your desktop app"
 ];
 
 export function PainVsSolution() {

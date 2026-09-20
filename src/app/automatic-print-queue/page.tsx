@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Automatic Print Queue Management',
-  description: 'Manage your prints automatically. Learn about PrintHatke\'s desktop terminal, auto-print capabilities, and job lifecycles.',
+  description: 'Manage your prints automatically. Learn about PrintHatke\'s desktop app, auto-print capabilities, and job lifecycles.',
 };
 
 export default function AutomaticQueuePage() {
@@ -16,7 +16,7 @@ export default function AutomaticQueuePage() {
           Your prints, <br className="hidden md:block"/> managed automatically
         </h1>
         <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-          The PrintHatke Desktop Terminal handles file processing, queueing, and printing so you don't have to.
+          The PrintHatke Desktop App handles file processing, queueing, and printing so you don't have to.
         </p>
       </section>
 
@@ -32,7 +32,7 @@ export default function AutomaticQueuePage() {
                   <h3 className="text-xl font-semibold">Manual Print Mode</h3>
                 </div>
                 <p className="text-text-secondary">
-                  Perfect for shops that want to verify files before printing. Jobs arrive in the 'Queued' tab. You click 'Print' when you're ready, and the terminal fetches the file and sends it to the selected printer.
+                  Perfect for shops that want to verify files before printing. Jobs arrive in the 'Queued' tab. You click 'Print' when you're ready, and the desktop app fetches the file and sends it to the selected printer.
                 </p>
               </div>
 
@@ -49,7 +49,7 @@ export default function AutomaticQueuePage() {
           </div>
 
           <div className="glass-card p-2 md:p-4 bg-surface-elevated/50 border border-border rounded-xl">
-            {/* Simple Terminal Mockup */}
+            {/* Simple App Mockup */}
             <div className="bg-midnight rounded-lg overflow-hidden border border-border shadow-2xl">
               <div className="bg-surface border-b border-border p-3 flex gap-4 text-sm">
                 <span className="text-electric font-medium border-b-2 border-electric pb-2 -mb-3">Active Jobs</span>
@@ -90,9 +90,9 @@ export default function AutomaticQueuePage() {
           
           {[
             { status: "Queued", desc: "Customer places order", color: "text-text-secondary" },
-            { status: "Claimed", desc: "Terminal locks job", color: "text-violet" },
+            { status: "Claimed", desc: "App locks job", color: "text-violet" },
             { status: "Downloading", desc: "Fetching file securely", color: "text-amber" },
-            { status: "Printing", desc: "Sent to printer spooler", color: "text-electric" },
+            { status: "Printing", desc: "Sent to printer", color: "text-electric" },
             { status: "Completed", desc: "Ready for pickup", color: "text-emerald" }
           ].map((step, i) => (
             <div key={i} className="flex flex-col items-center bg-midnight p-4 rounded-xl text-center w-full md:w-40 border border-surface-elevated shadow-sm">

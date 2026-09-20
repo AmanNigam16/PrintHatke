@@ -7,7 +7,7 @@ import { CtaSection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
   title: 'Product',
-  description: 'Explore the powerful features of PrintHatke. Build your branded print portal, manage jobs with our desktop terminal, and automate your workflow.',
+  description: 'Explore the powerful features of PrintHatke. Build your branded print portal, manage jobs with our desktop app, and automate your workflow.',
 };
 
 export default function ProductPage() {

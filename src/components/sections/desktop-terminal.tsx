@@ -36,7 +36,7 @@ export function DesktopTerminal() {
             </div>
             <div className="text-xs font-semibold text-text-tertiary flex items-center gap-2">
               <Monitor className="w-3 h-3" />
-              PrintHatke Terminal
+              PrintHatke App
             </div>
           </div>
           

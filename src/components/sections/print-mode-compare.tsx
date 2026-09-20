@@ -52,7 +52,7 @@ export function PrintModeCompare() {
           <ul className="space-y-4 mb-8 flex-1 relative z-10">
             <li className="flex items-center gap-3 text-sm font-medium"><Check className="w-4 h-4 text-electric" /> Zero-touch operation</li>
             <li className="flex items-center gap-3 text-sm font-medium"><Check className="w-4 h-4 text-electric" /> Prints instantly upon payment</li>
-            <li className="flex items-center gap-3 text-sm font-medium"><Check className="w-4 h-4 text-electric" /> Easily toggled on/off in terminal</li>
+            <li className="flex items-center gap-3 text-sm font-medium"><Check className="w-4 h-4 text-electric" /> Easily toggled on/off in the app</li>
           </ul>
           
           <div className="pt-6 border-t border-border/50 relative z-10">

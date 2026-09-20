@@ -44,7 +44,7 @@ export default function ForPrintStudiosPage() {
                 <Eye className="w-8 h-8 text-electric shrink-0" />
                 <div>
                   <h4 className="font-semibold text-lg">Review Before Printing</h4>
-                  <p className="text-text-secondary">Review complex jobs on the desktop terminal before committing to expensive print runs.</p>
+                  <p className="text-text-secondary">Review complex jobs on the desktop app before committing to expensive print runs.</p>
                 </div>
               </div>
               <div className="flex gap-4">

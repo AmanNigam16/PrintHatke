@@ -37,7 +37,7 @@ export function Hero() {
             variants={fadeInUp}
             className="text-text-secondary text-lg md:text-xl max-w-2xl mx-auto lg:mx-0 font-medium leading-relaxed"
           >
-            Customers scan your QR, upload documents, choose options, get a clear price, and pay — while you manage everything from a powerful desktop terminal.
+            Customers scan your QR, upload documents, choose options, get a clear price, and pay — while you manage everything from a powerful desktop app.
           </motion.p>
           
           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">

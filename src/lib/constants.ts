@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   name: "PrintHatke",
   tagline: "Your branded online print counter",
   description:
-    "PrintHatke digitises your print counter. Customers scan a QR, upload documents, choose options, get a clear quote, pay online, and collect their prints — while you manage everything from a desktop terminal.",
+    "PrintHatke digitises your print counter. Customers scan a QR, upload documents, choose options, get a clear quote, pay online, and collect their prints — while you manage everything from a desktop app.",
   /* PLACEHOLDER: Update with actual domain before launch */
   url: "https://printhatke.example.com",
   ogImage: "/og-image.png",
@@ -59,7 +59,7 @@ export const DEMO_STEPS = [
   { id: "options", label: "Options", description: "Choose B&W or colour, copies, pages, duplex" },
   { id: "quote", label: "Quote", description: "See a clear, real-time price quote" },
   { id: "payment", label: "Pay", description: "Pay online or choose pay-at-counter" },
-  { id: "queue", label: "Queue", description: "Job appears on the desktop terminal" },
+  { id: "queue", label: "Queue", description: "Job appears on the desktop app" },
   { id: "print", label: "Print", description: "Owner prints manually or uses Auto-Print" },
   { id: "done", label: "Done", description: "Customer tracks status and collects print" },
 ] as const;

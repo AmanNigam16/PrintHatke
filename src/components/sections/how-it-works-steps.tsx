@@ -9,7 +9,7 @@ const STEPS = [
   { icon: QrCode, title: "Scan the QR", desc: "Customer scans the QR code at your counter to open your branded print portal." },
   { icon: UploadCloud, title: "Upload & configure", desc: "Upload a PDF, JPG, or PNG. Choose colour, copies, pages, and duplex." },
   { icon: CreditCard, title: "Get quote & pay", desc: "See a clear price quote. Pay online or choose pay-at-counter." },
-  { icon: Printer, title: "Print & collect", desc: "The job appears on your desktop terminal. Print manually or use Auto-Print." },
+  { icon: Printer, title: "Print & collect", desc: "The job appears on your desktop app. Print manually or use Auto-Print." },
 ];
 
 export function HowItWorksSteps() {
