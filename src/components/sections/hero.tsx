@@ -80,7 +80,7 @@ export function Hero() {
                 <div className="bg-electric-soft p-4 border-b border-electric/20 flex gap-3 items-center">
                   <div className="w-10 h-10 rounded-xl bg-electric text-white font-display font-bold flex items-center justify-center shadow-md">PC</div>
                   <div>
-                    <div className="text-sm font-bold text-electric">PrintCafe Studio</div>
+                    <div className="text-sm font-bold text-electric">PrintHatke Studio</div>
                     <div className="text-[10px] text-text-secondary">MG Road, Station</div>
                   </div>
                 </div>

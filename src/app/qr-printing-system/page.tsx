@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'QR Printing System',
-  description: 'One scan for instant access to your print portal. Learn about PrintCafe\'s QR-based upload system.',
+  description: 'One scan for instant access to your print portal. Learn about PrintHatke\'s QR-based upload system.',
 };
 
 export default function QrPrintingSystemPage() {
@@ -61,7 +61,7 @@ export default function QrPrintingSystemPage() {
               </div>
               <div className="bg-gray-100 p-4 text-center">
                 <p className="text-gray-800 font-bold">Fast • Easy • Secure</p>
-                <p className="text-xs text-gray-500 mt-1">Powered by PrintCafe</p>
+                <p className="text-xs text-gray-500 mt-1">Powered by PrintHatke</p>
               </div>
             </div>
             

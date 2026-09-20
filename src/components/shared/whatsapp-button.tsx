@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react';
 
 export function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false);
+  // Keep the control hidden until the founder WhatsApp link is configured.
+  const whatsappUrl: string | null = null;
 
   useEffect(() => {
     // Show button after a small delay so it doesn't distract immediately on load
@@ -14,14 +16,14 @@ export function WhatsAppButton() {
 
   return (
     <AnimatePresence>
-      {isVisible && (
+      {isVisible && whatsappUrl && (
         <motion.a
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0, opacity: 0 }}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          href="https://wa.me/919999999999" // Replace with actual founder WA number
+          href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:shadow-[0_6px_25px_rgba(37,211,102,0.6)] transition-shadow duration-300"

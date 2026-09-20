@@ -41,7 +41,7 @@
 - Architecture supports provider swaps
 
 ## Placeholder Items Requiring Founder Decisions
-- Domain name (using printcafe.in as placeholder)
+- Domain name (using printhatke.example.com as placeholder)
 - Contact email, phone, WhatsApp
 - Demo booking mechanism
 - OG image for social sharing

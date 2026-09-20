@@ -26,7 +26,7 @@ export default function ForPhotocopyShopsPage() {
             <h2 className="text-3xl font-bold text-text-primary mb-6">Solve counter congestion</h2>
             <p className="text-text-secondary mb-8">
               Photocopy shops often deal with high footfall and complex pricing requirements. 
-              PrintCafe streamlines the intake process so you can focus on running the machines.
+              PrintHatke streamlines the intake process so you can focus on running the machines.
             </p>
             <div className="space-y-4">
               {[

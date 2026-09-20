@@ -77,10 +77,10 @@ export function Navbar() {
               {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <Link 
-              href="/register"
+              href="/contact"
               className="bg-electric text-white rounded-full px-4 py-2 font-semibold text-[13px] hover:opacity-90 transition shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_20px_rgba(37,99,235,0.5)] flex items-center gap-1.5"
             >
-              Join as a Merchant <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              Request a demo <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </Link>
           </div>
 
@@ -121,11 +121,11 @@ export function Navbar() {
             ))}
             <div className="pt-6 pb-2">
               <Link
-                href="/register"
+                href="/contact"
                 className="block w-full text-center bg-electric text-white rounded-full px-5 py-3 font-semibold text-base hover:opacity-90 transition flex items-center justify-center gap-2"
                 onClick={() => setIsOpen(false)}
               >
-                Join as a Merchant <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                Request a demo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
             </div>
           </div>

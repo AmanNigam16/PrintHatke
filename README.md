@@ -1,6 +1,6 @@
-# PrintCafe Marketing Website
+# PrintHatke Marketing Website
 
-Standalone marketing website for [PrintCafe](https://printcafe.in) — a branded online print counter for Indian cybercafés, photocopy shops, and print studios.
+Standalone marketing website for PrintHatke — a branded online print counter for Indian cybercafés, photocopy shops, and print studios.
 
 ## Tech Stack
 
@@ -57,7 +57,7 @@ See [docs/CONTENT-AND-CLAIMS.md](docs/CONTENT-AND-CLAIMS.md) for the product cla
 
 ## Important Notes
 
-- This is a **separate project** from the main PrintCafe product repository.
+- This is a **separate project** from the main product repository.
 - No backend, database, or authentication — pure marketing frontend.
 - All contact details are `[PLACEHOLDER]` — update before launch.
 - Payment gateway references are intentionally generic ('online payment') — never name a specific provider as permanent.

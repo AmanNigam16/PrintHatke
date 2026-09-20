@@ -13,8 +13,8 @@ export default function ForCybercafesPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://printcafe.example.com/" },
-      { "@type": "ListItem", "position": 2, "name": "For Cybercafés", "item": "https://printcafe.example.com/for-cybercafes" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://printhatke.example.com/" },
+      { "@type": "ListItem", "position": 2, "name": "For Cybercafés", "item": "https://printhatke.example.com/for-cybercafes" }
     ]
   };
 
@@ -53,7 +53,7 @@ export default function ForCybercafesPage() {
             </ul>
           </div>
           <div className="bg-surface-elevated rounded-3xl p-8 border border-border h-full flex flex-col justify-center">
-            <h2 className="text-3xl font-bold text-text-primary mb-8 text-center">The PrintCafe Way</h2>
+            <h2 className="text-3xl font-bold text-text-primary mb-8 text-center">The PrintHatke Way</h2>
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 shrink-0 rounded-full bg-electric/10 text-electric flex items-center justify-center border border-electric/20"><Smartphone /></div>

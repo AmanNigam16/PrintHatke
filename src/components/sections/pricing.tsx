@@ -4,9 +4,32 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { SectionWrapper } from '@/components/shared/section-wrapper';
 import { Check, ChevronDown } from 'lucide-react';
+import Link from 'next/link';
 
 export function Pricing() {
   const [billing, setBilling] = useState<'monthly' | 'yearly'>('monthly');
+
+  // Pricing and self-service onboarding are founder decisions, not public offers yet.
+  const pricingIsPublished = false;
+
+  if (!pricingIsPublished) {
+    return (
+      <SectionWrapper className="py-24">
+        <div className="glass-card mx-auto max-w-3xl p-8 text-center md:p-14">
+          <p className="mb-4 text-sm font-bold uppercase tracking-widest text-electric">Pricing</p>
+          <h1 className="font-display text-4xl font-extrabold tracking-tight text-text-primary md:text-5xl">
+            Pricing tailored to your print counter.
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-text-secondary">
+            We are finalising PrintHatke plans and onboarding options. Tell us about your shop, printers, and preferred workflow, and we&apos;ll share the right setup and pricing.
+          </p>
+          <Link href="/contact" className="mt-10 inline-flex rounded-full bg-electric px-7 py-3.5 text-sm font-bold text-white transition-opacity hover:opacity-90">
+            Request pricing
+          </Link>
+        </div>
+      </SectionWrapper>
+    );
+  }
 
   const plans = [
     {
@@ -78,7 +101,7 @@ export function Pricing() {
           Plans built for profitable printing
         </h2>
         <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-text-primary mb-6">
-          Choose your PrintCafe plan
+          Choose your PrintHatke plan
         </h1>
         <p className="text-lg text-text-secondary">
           No hidden fees. Just transparent pricing designed to scale with your print counter.
@@ -132,7 +155,7 @@ export function Pricing() {
             
             {plan.name === 'Growth' && (
               <div className="bg-emerald/10 border border-emerald/20 text-emerald text-xs font-bold py-1.5 px-3 rounded-md w-max mb-4">
-                7-day free trial available
+                Pricing details coming soon
               </div>
             )}
             
@@ -165,7 +188,7 @@ export function Pricing() {
       <div className="mt-16 text-center">
         <div className="flex flex-wrap justify-center gap-4">
           <a href="/register" className="bg-electric text-white px-8 py-3.5 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity flex items-center justify-center">
-            Register as a merchant
+            Request pricing
           </a>
           <button className="glass-card text-text-primary px-8 py-3.5 rounded-full font-bold border border-border hover:bg-surface-elevated transition-colors">
             Merchant sign in

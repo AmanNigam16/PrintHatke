@@ -25,7 +25,7 @@ export function PainVsSolution() {
   return (
     <SectionWrapper className="py-24">
       <div className="text-center mb-16">
-        <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight">The old way vs. PrintCafe</h2>
+        <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight">The old way vs. PrintHatke</h2>
       </div>
 
       <motion.div 
@@ -42,7 +42,7 @@ export function PainVsSolution() {
             <div className="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center">
               <X className="w-5 h-5 text-red-400" />
             </div>
-            Without PrintCafe
+            Without PrintHatke
           </h3>
           <ul className="space-y-6">
             {PAINS.map((pain, i) => (
@@ -61,7 +61,7 @@ export function PainVsSolution() {
             <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center">
               <Check className="w-5 h-5 text-emerald-400" />
             </div>
-            With PrintCafe
+            With PrintHatke
           </h3>
           <ul className="space-y-6">
             {SOLUTIONS.map((solution, i) => (

@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/'],
       },
     ],
-    sitemap: 'https://printcafe.in/sitemap.xml', // PLACEHOLDER: update with actual domain
+    sitemap: 'https://printhatke.example.com/sitemap.xml', // PLACEHOLDER: update with actual domain
   };
 }

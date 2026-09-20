@@ -73,7 +73,7 @@ export default function OnlinePaymentsPage() {
 
             <div className="mt-8 p-4 bg-surface-elevated border border-electric/20 rounded-lg text-sm text-text-secondary">
               <strong className="text-text-primary block mb-1">Gateway Flexible</strong>
-              PrintCafe is designed to work with different payment providers to ensure maximum compatibility and reliability for your business.
+              PrintHatke is designed to work with different payment providers to ensure maximum compatibility and reliability for your business.
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function OnlinePaymentsPage() {
       <SectionWrapper className="py-24 px-5 md:px-8 lg:px-12 max-w-[1440px] mx-auto text-center">
         <h2 className="text-3xl font-bold text-text-primary mb-6">Stop losing money on abandoned prints</h2>
         <Link href="/contact" className="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-electric text-midnight font-medium hover:bg-electric-soft transition-colors">
-          Get PrintCafe
+          Get PrintHatke
         </Link>
       </SectionWrapper>
     </>

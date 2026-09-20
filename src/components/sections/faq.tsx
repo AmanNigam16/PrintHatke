@@ -7,9 +7,9 @@ import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { cn } from "@/lib/utils";
 
 const FAQS = [
-  { q: "What is PrintCafe?", a: "PrintCafe is a branded online print counter for cybercafés, photocopy shops, and print studios. It digitises your print intake: customers scan a QR code, upload documents, choose print options, see a clear price, and pay — while you manage everything from a desktop terminal." },
+  { q: "What is PrintHatke?", a: "PrintHatke is a branded online print counter for cybercafés, photocopy shops, and print studios. It digitises your print intake: customers scan a QR code, upload documents, choose print options, see a clear price, and pay — while you manage everything from a desktop terminal." },
   { q: "How does the QR ordering work?", a: "You display a shop-specific QR code at your counter. When a customer scans it, it opens your branded print portal in their phone browser. No app install is needed. They upload a document, choose options, and submit their order." },
-  { q: "What payment methods are supported?", a: "PrintCafe supports online payment including UPI and card payments through the configured payment provider. Customers can also choose to pay at the counter. The payment integration is designed to be provider-flexible." },
+  { q: "What payment methods are supported?", a: "PrintHatke supports online payment including UPI and card payments through the configured payment provider. Customers can also choose to pay at the counter. The payment integration is designed to be provider-flexible." },
   { q: "Do my customers need to create an account?", a: "No. There is no customer login or account creation. Customers simply scan the QR, upload, pay, and collect. The entire flow is designed for walk-in convenience." },
   { q: "How does Auto-Print work?", a: "Auto-Print is an optional mode in the desktop terminal. When enabled, paid jobs are automatically sent to your connected printer as they arrive. You can switch between Auto-Print and Manual Print at any time from the terminal settings." },
   { q: "What file formats are supported?", a: "Customers can upload PDF, JPG, and PNG files. Images are automatically converted to print-ready format. The maximum file size is configured by the shop owner." },

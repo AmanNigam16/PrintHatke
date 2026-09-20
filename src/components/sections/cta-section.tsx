@@ -22,8 +22,8 @@ export function CtaSection() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/register" className="bg-electric hover:bg-electric/90 text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all shadow-lg shadow-electric/25 flex items-center justify-center gap-2">
-            Register as a merchant
+          <a href="/contact" className="bg-electric hover:bg-electric/90 text-white px-6 py-3.5 rounded-full font-bold text-sm transition-all shadow-lg shadow-electric/25 flex items-center justify-center gap-2">
+            Request a demo
           </a>
           <a href="/contact" className="bg-surface hover:bg-surface-elevated border border-border-glow text-text-primary px-8 py-4 rounded-full font-semibold transition-all flex items-center justify-center">
             Talk to Us

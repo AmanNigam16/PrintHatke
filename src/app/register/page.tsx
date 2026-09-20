@@ -1,18 +1,22 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: 'Register as a Merchant',
-  description: 'Join PrintCafe and automate your print shop workflow today.',
+  description: 'Request a PrintHatke demo and learn about onboarding for your print shop.',
 };
 
 export default function RegisterPage() {
+  // Self-service merchant accounts are not available yet. Keep old inbound links safe.
+  redirect('/contact');
+
   return (
     <div className="min-h-screen pt-24 pb-16 flex flex-col justify-center">
       <div className="max-w-md mx-auto w-full px-4 sm:px-6">
         
         <div className="text-center mb-8">
-          <h1 className="font-display text-3xl font-extrabold text-text-primary mb-2">Join PrintCafe</h1>
+          <h1 className="font-display text-3xl font-extrabold text-text-primary mb-2">Join PrintHatke</h1>
           <p className="text-text-secondary text-sm">Automate your print shop workflow.</p>
         </div>
 

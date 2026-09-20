@@ -40,7 +40,7 @@ export function PortalCustomisation() {
           <div className="glass-card p-5">
             <div className="text-sm font-bold mb-2 text-text-secondary">3. Customer order link</div>
             <div className="text-sm text-electric bg-electric-soft px-4 py-3 rounded-lg border border-electric/20 font-medium tracking-wide">
-              printcafe.in/s/sharma-xerox
+              printhatke.example.com/s/sharma-xerox
             </div>
           </div>
           
@@ -92,7 +92,7 @@ export function PortalCustomisation() {
               </div>
               
               <div className="p-4 text-center border-t border-border bg-midnight/50">
-                <p className="text-[9px] text-text-tertiary font-medium">Powered by <span className="text-text-secondary font-bold">PrintCafe</span></p>
+                <p className="text-[9px] text-text-tertiary font-medium">Powered by <span className="text-text-secondary font-bold">PrintHatke</span></p>
               </div>
             </div>
           </div>

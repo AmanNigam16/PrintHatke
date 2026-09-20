@@ -22,7 +22,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     // Default to light to match Print Catalyst aesthetic
-    const stored = localStorage.getItem("printcafe-theme") as Theme | null;
+    const stored = localStorage.getItem("printhatke-theme") as Theme | null;
     if (stored === "light" || stored === "dark") {
       setTheme(stored);
     } else {
@@ -37,7 +37,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     } else {
       root.classList.remove("light");
     }
-    localStorage.setItem("printcafe-theme", theme);
+    localStorage.setItem("printhatke-theme", theme);
   }, [theme]);
 
   const toggleTheme = () => setTheme((t) => (t === "dark" ? "light" : "dark"));

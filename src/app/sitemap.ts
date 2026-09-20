@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://printcafe.in'; // PLACEHOLDER: update with actual domain
+  const baseUrl = 'https://printhatke.example.com'; // PLACEHOLDER: update with actual domain
   
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },

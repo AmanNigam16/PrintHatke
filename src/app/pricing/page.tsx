@@ -5,7 +5,7 @@ import { CtaSection } from "@/components/sections/cta-section";
 
 export const metadata: Metadata = {
   title: 'Pricing',
-  description: 'Choose the right PrintCafe plan for your print shop. Transparent pricing designed to scale with your business.',
+  description: 'Learn about PrintHatke pricing and onboarding for your print shop.',
 };
 
 export default function PricingPage() {
@@ -13,8 +13,8 @@ export default function PricingPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://printcafe.example.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://printcafe.example.com/pricing" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://printhatke.example.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://printhatke.example.com/pricing" }
     ]
   };
 

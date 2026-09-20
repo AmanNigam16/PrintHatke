@@ -1,12 +1,12 @@
 /* ── Site-wide constants and metadata ─────────────────────────────── */
 
 export const SITE_CONFIG = {
-  name: "PrintCafe",
+  name: "PrintHatke",
   tagline: "Your branded online print counter",
   description:
-    "PrintCafe digitises your print counter. Customers scan a QR, upload documents, choose options, get a clear quote, pay online, and collect their prints — while you manage everything from a desktop terminal.",
+    "PrintHatke digitises your print counter. Customers scan a QR, upload documents, choose options, get a clear quote, pay online, and collect their prints — while you manage everything from a desktop terminal.",
   /* PLACEHOLDER: Update with actual domain before launch */
-  url: "https://printcafe.in",
+  url: "https://printhatke.example.com",
   ogImage: "/og-image.png",
 } as const;
 
@@ -48,7 +48,7 @@ export const FOOTER_LINKS = {
 
 /* PLACEHOLDER: Replace with actual contact details */
 export const CONTACT_INFO = {
-  email: "[PLACEHOLDER: contact@printcafe.in]",
+  email: "[PLACEHOLDER: contact@printhatke.example.com]",
   phone: "[PLACEHOLDER: +91-XXXXX-XXXXX]",
   whatsapp: "[PLACEHOLDER: WhatsApp link]",
 } as const;

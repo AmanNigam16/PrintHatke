@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Automatic Print Queue Management',
-  description: 'Manage your prints automatically. Learn about PrintCafe\'s desktop terminal, auto-print capabilities, and job lifecycles.',
+  description: 'Manage your prints automatically. Learn about PrintHatke\'s desktop terminal, auto-print capabilities, and job lifecycles.',
 };
 
 export default function AutomaticQueuePage() {
@@ -16,7 +16,7 @@ export default function AutomaticQueuePage() {
           Your prints, <br className="hidden md:block"/> managed automatically
         </h1>
         <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-          The PrintCafe Desktop Terminal handles file processing, queueing, and printing so you don't have to.
+          The PrintHatke Desktop Terminal handles file processing, queueing, and printing so you don't have to.
         </p>
       </section>
 

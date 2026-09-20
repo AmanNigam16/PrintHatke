@@ -37,10 +37,10 @@ export function Footer() {
           <div>
             <h3 className="font-display font-semibold text-text-primary mb-6 text-sm uppercase tracking-wider">Product</h3>
             <ul className="space-y-4">
-              <li><Link href="/#how-it-works" className="text-sm text-text-secondary hover:text-electric transition-colors">How It Works</Link></li>
-              <li><Link href="/features/qr-printing" className="text-sm text-text-secondary hover:text-electric transition-colors">QR Printing System</Link></li>
-              <li><Link href="/features/payments" className="text-sm text-text-secondary hover:text-electric transition-colors">Online Payments</Link></li>
-              <li><Link href="/features/print-queue" className="text-sm text-text-secondary hover:text-electric transition-colors">Automatic Print Queue</Link></li>
+              <li><Link href="/how-it-works" className="text-sm text-text-secondary hover:text-electric transition-colors">How It Works</Link></li>
+              <li><Link href="/qr-printing-system" className="text-sm text-text-secondary hover:text-electric transition-colors">QR Printing System</Link></li>
+              <li><Link href="/online-print-payments" className="text-sm text-text-secondary hover:text-electric transition-colors">Online Payments</Link></li>
+              <li><Link href="/automatic-print-queue" className="text-sm text-text-secondary hover:text-electric transition-colors">Automatic Print Queue</Link></li>
             </ul>
           </div>
 
@@ -48,9 +48,9 @@ export function Footer() {
           <div>
             <h3 className="font-display font-semibold text-text-primary mb-6 text-sm uppercase tracking-wider">Use Cases</h3>
             <ul className="space-y-4">
-              <li><Link href="/use-cases/cybercafes" className="text-sm text-text-secondary hover:text-electric transition-colors">For Cybercafés</Link></li>
-              <li><Link href="/use-cases/photocopy-shops" className="text-sm text-text-secondary hover:text-electric transition-colors">For Photocopy Shops</Link></li>
-              <li><Link href="/use-cases/print-studios" className="text-sm text-text-secondary hover:text-electric transition-colors">For Print Studios</Link></li>
+              <li><Link href="/for-cybercafes" className="text-sm text-text-secondary hover:text-electric transition-colors">For Cybercafés</Link></li>
+              <li><Link href="/for-photocopy-shops" className="text-sm text-text-secondary hover:text-electric transition-colors">For Photocopy Shops</Link></li>
+              <li><Link href="/for-print-studios" className="text-sm text-text-secondary hover:text-electric transition-colors">For Print Studios</Link></li>
             </ul>
           </div>
 
@@ -68,12 +68,10 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-text-muted text-sm">
-            © 2026 PrintCafe. All rights reserved.
+            © 2026 PrintHatke. All rights reserved.
           </p>
           <p className="text-text-muted text-sm">
-            <a href="mailto:contact@printcafe.in" className="hover:text-electric transition-colors">
-              contact@printcafe.in
-            </a>
+            Contact details coming soon.
           </p>
         </div>
       </div>

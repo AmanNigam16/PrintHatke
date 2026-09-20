@@ -22,15 +22,15 @@ const ibmPlexSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'PrintCafe - Your Branded Online Print Counter',
-    template: '%s | PrintCafe',
+    default: 'PrintHatke - Your Branded Online Print Counter',
+    template: '%s | PrintHatke',
   },
-  description: 'Digitise your print counter with PrintCafe. The ultimate online printing system for Indian cybercafes, photocopy shops, and print studios.',
-  metadataBase: new URL('https://printcafe.in'),
+  description: 'Digitise your print counter with PrintHatke. An online printing system for Indian cybercafes, photocopy shops, and print studios.',
+  metadataBase: new URL('https://printhatke.example.com'),
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    siteName: 'PrintCafe',
+    siteName: 'PrintHatke',
   },
   twitter: {
     card: 'summary_large_image',

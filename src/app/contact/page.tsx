@@ -5,7 +5,7 @@ import ContactForm from './contact-form';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with PrintCafe. Book a demo, ask questions, or learn how to upgrade your print counter.',
+  description: 'Get in touch with PrintHatke. Book a demo, ask questions, or learn how to upgrade your print counter.',
 };
 
 export default function ContactPage() {
@@ -16,7 +16,7 @@ export default function ContactPage() {
           Get in touch
         </h1>
         <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-          Have questions about PrintCafe or want to see a live demo? We'd love to hear from you.
+          Have questions about PrintHatke or want to see a live demo? We'd love to hear from you.
         </p>
       </section>
 
@@ -63,7 +63,7 @@ export default function ContactPage() {
 
             <div className="mt-12 p-6 glass-card border-electric/30 bg-electric/5">
               <h3 className="font-semibold text-lg mb-2">Book a Demo</h3>
-              <p className="text-text-secondary text-sm mb-4">Want to see how PrintCafe works in action? Schedule a tailored demo for your shop.</p>
+              <p className="text-text-secondary text-sm mb-4">Want to see how PrintHatke works in action? Schedule a tailored demo for your shop.</p>
               <p className="text-xs text-text-tertiary italic">[PLACEHOLDER: Demo booking mechanism - Calendly, Google Forms, or custom]</p>
             </div>
           </div>

@@ -82,7 +82,7 @@ export function Hero() {
                 <div className="bg-electric-soft p-4 border-b border-electric/20 flex gap-3 items-center">
                   <div className="w-10 h-10 rounded-xl bg-electric text-white font-display font-bold flex items-center justify-center shadow-md">PC</div>
                   <div>
-                    <div className="text-sm font-bold text-electric">PrintCafe Studio</div>
+                    <div className="text-sm font-bold text-electric">PrintHatke Studio</div>
                     <div className="text-[10px] text-text-secondary">MG Road, Station</div>
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export function PainVsSolution() {
   return (
     <SectionWrapper className="py-24">
       <div className="text-center mb-16">
-        <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight">The old way vs. PrintCafe</h2>
+        <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight">The old way vs. PrintHatke</h2>
       </div>
 
       <motion.div 
@@ -257,7 +257,7 @@ export function PainVsSolution() {
             <div className="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center">
               <X className="w-5 h-5 text-red-400" />
             </div>
-            Without PrintCafe
+            Without PrintHatke
           </h3>
           <ul className="space-y-6">
             {PAINS.map((pain, i) => (
@@ -276,7 +276,7 @@ export function PainVsSolution() {
             <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center">
               <Check className="w-5 h-5 text-emerald-400" />
             </div>
-            With PrintCafe
+            With PrintHatke
           </h3>
           <ul className="space-y-6">
             {SOLUTIONS.map((solution, i) => (
@@ -431,7 +431,7 @@ export function PortalCustomisation() {
           <div className="glass-card p-5">
             <div className="text-sm font-bold mb-2 text-text-secondary">3. Customer order link</div>
             <div className="text-sm text-electric bg-electric-soft px-4 py-3 rounded-lg border border-electric/20 font-medium tracking-wide">
-              printcafe.in/s/sharma-xerox
+              printhatke.example.com/s/sharma-xerox
             </div>
           </div>
           
@@ -483,7 +483,7 @@ export function PortalCustomisation() {
               </div>
               
               <div className="p-4 text-center border-t border-border bg-midnight/50">
-                <p className="text-[9px] text-text-tertiary font-medium">Powered by <span className="text-text-secondary font-bold">PrintCafe</span></p>
+                <p className="text-[9px] text-text-tertiary font-medium">Powered by <span className="text-text-secondary font-bold">PrintHatke</span></p>
               </div>
             </div>
           </div>
@@ -531,7 +531,7 @@ export function DesktopTerminal() {
             </div>
             <div className="text-xs font-semibold text-text-tertiary flex items-center gap-2">
               <Monitor className="w-3 h-3" />
-              PrintCafe Terminal
+              PrintHatke Terminal
             </div>
           </div>
           
@@ -756,9 +756,9 @@ import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { cn } from "@/lib/utils";
 
 const FAQS = [
-  { q: "What is PrintCafe?", a: "PrintCafe is a branded online print counter for cybercafés, photocopy shops, and print studios. It digitises your print intake: customers scan a QR code, upload documents, choose print options, see a clear price, and pay — while you manage everything from a desktop terminal." },
+  { q: "What is PrintHatke?", a: "PrintHatke is a branded online print counter for cybercafés, photocopy shops, and print studios. It digitises your print intake: customers scan a QR code, upload documents, choose print options, see a clear price, and pay — while you manage everything from a desktop terminal." },
   { q: "How does the QR ordering work?", a: "You display a shop-specific QR code at your counter. When a customer scans it, it opens your branded print portal in their phone browser. No app install is needed. They upload a document, choose options, and submit their order." },
-  { q: "What payment methods are supported?", a: "PrintCafe supports online payment including UPI and card payments through the configured payment provider. Customers can also choose to pay at the counter. The payment integration is designed to be provider-flexible." },
+  { q: "What payment methods are supported?", a: "PrintHatke supports online payment including UPI and card payments through the configured payment provider. Customers can also choose to pay at the counter. The payment integration is designed to be provider-flexible." },
   { q: "Do my customers need to create an account?", a: "No. There is no customer login or account creation. Customers simply scan the QR, upload, pay, and collect. The entire flow is designed for walk-in convenience." },
   { q: "How does Auto-Print work?", a: "Auto-Print is an optional mode in the desktop terminal. When enabled, paid jobs are automatically sent to your connected printer as they arrive. You can switch between Auto-Print and Manual Print at any time from the terminal settings." },
   { q: "What file formats are supported?", a: "Customers can upload PDF, JPG, and PNG files. Images are automatically converted to print-ready format. The maximum file size is configured by the shop owner." },
